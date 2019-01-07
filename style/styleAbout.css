@@ -26,7 +26,7 @@ header {
   text-decoration: none;
 }
 .menu__item a:visited {
-  color: #10c9c3;
+  color: #000;
   cursor: pointer;
   text-decoration: none;
 }
@@ -44,7 +44,7 @@ header {
   color: #10c9c3;
   cursor: pointer;
 }
-.a:visited {
+a:visited:hover {
   color: #10c9c3;
   cursor: pointer;
   text-decoration: none;

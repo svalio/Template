@@ -37,14 +37,22 @@ header {
 .menu__item__logo:hover {
   cursor: default;
 }
+.menu__item a:hover {
+  color: #10c9c3;
+  cursor: pointer;
+}
 .menu__item:hover {
   color: #10c9c3;
   cursor: pointer;
 }
 .menu__item a:visited {
-  color: #10c9c3;
+  color: #000;
   cursor: pointer;
   text-decoration: none;
+}
+.menu__item a:visited:hover {
+  color: #10c9c3;
+  cursor: pointer;
 }
 .menu {
   display: flex;
@@ -84,6 +92,10 @@ header {
 }
 .banner__button:hover {
   background-color: #39b4af;
+}
+.banner__button a:visited {
+  color: #fff;
+  text-decoration: none;
 }
 .about__container {
   margin: 0 auto;
