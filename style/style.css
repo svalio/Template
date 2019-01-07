@@ -7,7 +7,7 @@ html {
   font-family: Montserrat-Medium;
 }
 header {
-  width: 1366px;
+  min-width: 960px;
   height: 670px;
   margin: 0 auto;
   background-image: url("../img/header-mac.jpg");
@@ -86,10 +86,9 @@ header {
 }
 .about__container {
   margin: 0 auto;
-  width: 1170px;
+  min-width: 960px;
   height: 420px;
   font-family: Montserrat-Medium;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,7 +117,8 @@ header {
   background-image: url("../img/pencil.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  width: 1266px;
+
+  min-width: 960px;
   height: 670px;
   margin: 0 auto;
   padding-left: 100px;
@@ -156,7 +156,7 @@ progress::-webkit-progress-value {
 }
 .numbers__container {
   height: 240px;
-  width: 1366px;
+  min-width: 960px;
   font-size: 14px;
   text-transform: uppercase;
   background-color: #10c9c3;
@@ -181,7 +181,7 @@ progress::-webkit-progress-value {
   margin-bottom: 5px;
 }
 .work-container {
-  width: 1366px;
+  min-width: 960px;
   height: auto;
   margin: 0 auto;
 }
@@ -194,8 +194,8 @@ progress::-webkit-progress-value {
 }
 .work__row__ul__item {
   display: block;
-  width: 341.5px;
-  height: 300px;
+  width: 25%;
+  height: 400px;
   position: relative;
   margin: 0;
   padding: 0;
@@ -239,7 +239,8 @@ progress::-webkit-progress-value {
   text-transform: uppercase;
   background-color: Transparent;
   background-repeat: no-repeat;
-  width: 1366px;
+  width: 100%;
+  min-width: 960px;
   height: 100px;
   border: none;
   cursor: pointer;
@@ -255,7 +256,7 @@ progress::-webkit-progress-value {
   opacity: 0.6;
 }
 .work__process__container {
-  width: 1366px;
+  min-width: 960px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -286,15 +287,15 @@ progress::-webkit-progress-value {
   margin-bottom: 60px;
 }
 .services__container {
-  width: 1366px;
+  min-width: 960px;
   font-size: 12px;
   height: auto;
   margin: 0 auto;
   margin-bottom: 100px;
 }
 .services__row {
-  margin-right: 96px;
-  margin-left: 96px;
+  margin-right: 10%;
+  margin-left: 10%;
   display: flex;
   flex-direction: row;
 }
@@ -322,7 +323,7 @@ progress::-webkit-progress-value {
   text-align: center;
 }
 .slider__container {
-  width: 1366px;
+  min-width: 960px;
   height: 500px;
   background-color: #10c9c3;
   margin: 0 auto;
@@ -392,7 +393,7 @@ dot:hover {
   }
 }
 .pictures__container {
-  width: 1366px;
+  min-width: 960px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -402,7 +403,7 @@ dot:hover {
   justify-content: space-around;
 }
 .form__container {
-  width: 1366px;
+  min-width: 960px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -481,8 +482,7 @@ dot:hover {
   background-color: #39b4af;
 }
 footer {
-  height: 285px;
-  width: 1366px;
+  min-width: 960px;
   background-color: #000;
   margin: 0 auto;
 }

@@ -7,7 +7,7 @@ html {
   font-family: Montserrat-Medium;
 }
 header {
-  width: 1366px;
+  min-width: 960px;
   height: 450px;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -56,12 +56,12 @@ header {
   padding-left: 98px;
 }
 .banner {
-  width: 1366px;
+  min-width: 960px;
   height: 350px;
   font-family: Montserrat-Medium;
   background-image: url(../img/aboutWoman.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 400px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -97,7 +97,7 @@ header {
 
 .about__container {
   font-family: Montserrat-Medium;
-  width: 1366px;
+  min-width: 960px;
   height: 570px;
   margin: 0 auto;
   display: flex;
@@ -170,7 +170,7 @@ header {
 
 .numbers__container {
   height: 240px;
-  width: 1366px;
+  min-width: 960px;
   font-size: 14px;
   text-transform: uppercase;
   background-color: #10c9c3;
@@ -196,7 +196,7 @@ header {
 }
 
 footer {
-  width: 1366px;
+  min-width: 960px;
   height: auto;
   margin: 0 auto;
   background-color: #000;
