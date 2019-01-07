@@ -78,6 +78,7 @@ header {
   background-color: #10c9c3;
   cursor: pointer;
   outline: none;
+  border: 0;
   font-weight: bold;
   color: #fff;
 }
@@ -476,6 +477,7 @@ dot:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
+  border: 0;
   color: #fff;
 }
 .form__submit:hover {

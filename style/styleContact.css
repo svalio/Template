@@ -158,6 +158,7 @@ header {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
+  border: 0;
   color: #fff;
 }
 .form__submit:hover {
