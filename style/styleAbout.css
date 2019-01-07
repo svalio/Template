@@ -134,7 +134,7 @@ header {
   align-self: flex-end;
 }
 .project__container {
-  width: 1366px;
+  min-width: 960px;
   height: auto;
   margin: 110px auto;
 
